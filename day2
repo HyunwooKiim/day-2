@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int x;
+int f(x){
+
+  x = x - 3;
+  printf("%d\n",x);
+  x = x - 4;
+  printf("%d\n",x);
+  x=2*x+3;
+  return x;
+
+}
+
+int main() {
+
+  scanf("%d",&x);
+  printf("%d\n",x);
+  f(x);
+  printf("%d\n",x);
+
+  return 0;
+}
